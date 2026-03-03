@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:warped_fungus_on_a_stick",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

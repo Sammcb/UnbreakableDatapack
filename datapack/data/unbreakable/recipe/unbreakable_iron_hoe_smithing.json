@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:iron_hoe",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:iron_hoe",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_netherite_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:netherite_hoe" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_netherite_hoe_smithing"
+			}
+		}
+	},
+	"requirements": [["has_netherite_hoe", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_netherite_hoe_smithing"]
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_diamond_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:diamond_helmet" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_diamond_helmet_smithing"
+			}
+		}
+	},
+	"requirements": [["has_diamond_helmet", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_diamond_helmet_smithing"]
+	}
+}

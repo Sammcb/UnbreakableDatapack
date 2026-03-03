@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:turtle_helmet",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:turtle_helmet",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

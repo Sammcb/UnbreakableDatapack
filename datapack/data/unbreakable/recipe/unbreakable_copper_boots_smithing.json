@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:copper_boots",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:copper_boots",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

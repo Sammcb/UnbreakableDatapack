@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_iron_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:iron_hoe" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_iron_hoe_smithing"
+			}
+		}
+	},
+	"requirements": [["has_iron_hoe", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_iron_hoe_smithing"]
+	}
+}

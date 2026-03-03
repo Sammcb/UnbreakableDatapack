@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:bow",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:bow",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

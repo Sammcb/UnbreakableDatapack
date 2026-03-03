@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:fishing_rod",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:fishing_rod",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:leather_helmet",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:leather_helmet",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

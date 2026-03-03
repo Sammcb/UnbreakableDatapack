@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:diamond_sword",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:diamond_sword",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

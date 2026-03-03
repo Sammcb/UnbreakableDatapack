@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:crossbow",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:crossbow",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

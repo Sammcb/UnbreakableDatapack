@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:mace",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:mace",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

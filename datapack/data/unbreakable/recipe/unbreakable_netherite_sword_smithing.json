@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:netherite_sword",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:netherite_sword",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

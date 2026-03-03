@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_leather_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:leather_boots" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_leather_boots_smithing"
+			}
+		}
+	},
+	"requirements": [["has_leather_boots", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_leather_boots_smithing"]
+	}
+}

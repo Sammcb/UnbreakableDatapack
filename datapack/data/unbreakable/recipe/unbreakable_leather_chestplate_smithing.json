@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:leather_chestplate",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:leather_chestplate",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

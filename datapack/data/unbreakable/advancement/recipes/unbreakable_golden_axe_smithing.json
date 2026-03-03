@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_golden_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:golden_axe" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_golden_axe_smithing"
+			}
+		}
+	},
+	"requirements": [["has_golden_axe", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_golden_axe_smithing"]
+	}
+}

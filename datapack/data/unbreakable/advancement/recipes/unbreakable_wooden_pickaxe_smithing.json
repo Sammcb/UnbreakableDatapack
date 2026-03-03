@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_wooden_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:wooden_pickaxe" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_wooden_pickaxe_smithing"
+			}
+		}
+	},
+	"requirements": [["has_wooden_pickaxe", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_wooden_pickaxe_smithing"]
+	}
+}

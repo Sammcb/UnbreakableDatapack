@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_brush": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:brush" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_brush_smithing"
+			}
+		}
+	},
+	"requirements": [["has_brush", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_brush_smithing"]
+	}
+}
