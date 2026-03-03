@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:iron_leggings",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:iron_leggings",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

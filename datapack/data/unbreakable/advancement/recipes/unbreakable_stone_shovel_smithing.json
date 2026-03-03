@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_stone_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:stone_shovel" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_stone_shovel_smithing"
+			}
+		}
+	},
+	"requirements": [["has_stone_shovel", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_stone_shovel_smithing"]
+	}
+}

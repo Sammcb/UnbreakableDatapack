@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:shears",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:shears",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

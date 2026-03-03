@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_golden_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:golden_boots" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_golden_boots_smithing"
+			}
+		}
+	},
+	"requirements": [["has_golden_boots", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_golden_boots_smithing"]
+	}
+}

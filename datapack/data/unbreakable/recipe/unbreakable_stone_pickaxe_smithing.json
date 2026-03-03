@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:stone_pickaxe",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:stone_pickaxe",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

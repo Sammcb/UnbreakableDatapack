@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:golden_boots",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:golden_boots",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

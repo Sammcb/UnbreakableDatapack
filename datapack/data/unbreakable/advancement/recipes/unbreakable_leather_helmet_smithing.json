@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_leather_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:leather_helmet" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_leather_helmet_smithing"
+			}
+		}
+	},
+	"requirements": [["has_leather_helmet", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_leather_helmet_smithing"]
+	}
+}

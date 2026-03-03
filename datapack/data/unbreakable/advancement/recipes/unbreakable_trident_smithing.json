@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_trident": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:trident" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_trident_smithing"
+			}
+		}
+	},
+	"requirements": [["has_trident", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_trident_smithing"]
+	}
+}

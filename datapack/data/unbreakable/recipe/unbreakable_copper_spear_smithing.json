@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:copper_spear",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:copper_spear",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

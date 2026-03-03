@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_copper_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:copper_sword" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_copper_sword_smithing"
+			}
+		}
+	},
+	"requirements": [["has_copper_sword", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_copper_sword_smithing"]
+	}
+}

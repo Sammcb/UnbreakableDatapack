@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:netherite_boots",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:netherite_boots",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

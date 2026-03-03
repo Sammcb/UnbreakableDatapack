@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_stone_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:stone_pickaxe" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_stone_pickaxe_smithing"
+			}
+		}
+	},
+	"requirements": [["has_stone_pickaxe", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_stone_pickaxe_smithing"]
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:golden_chestplate",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:golden_chestplate",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

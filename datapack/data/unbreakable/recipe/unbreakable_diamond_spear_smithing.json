@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:diamond_spear",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:diamond_spear",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

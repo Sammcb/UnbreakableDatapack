@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:copper_shovel",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:copper_shovel",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

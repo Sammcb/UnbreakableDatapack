@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_diamond_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:diamond_shovel" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_diamond_shovel_smithing"
+			}
+		}
+	},
+	"requirements": [["has_diamond_shovel", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_diamond_shovel_smithing"]
+	}
+}

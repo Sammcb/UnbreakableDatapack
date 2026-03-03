@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing_transform",
+	"base": "minecraft:wolf_armor",
+	"addition": "#unbreakable:unbreakable_materials",
+	"result": {
+		"id": "minecraft:wolf_armor",
+		"count": 1,
+		"components": {
+			"minecraft:unbreakable": {}
+		}
+	}
+}

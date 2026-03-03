@@ -1,0 +1,21 @@
+{
+	"parent": "unbreakable:recipes/root",
+	"criteria": {
+		"has_bow": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [{ "items": "minecraft:bow" }]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "unbreakable:unbreakable_bow_smithing"
+			}
+		}
+	},
+	"requirements": [["has_bow", "has_the_recipe"]],
+	"rewards": {
+		"recipes": ["unbreakable:unbreakable_bow_smithing"]
+	}
+}
