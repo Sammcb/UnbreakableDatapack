@@ -10,7 +10,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "unbreakable:unbreakable_netherite_chestplate_smithing"
+				"recipes": "unbreakable:unbreakable_netherite_chestplate_smithing"
 			}
 		}
 	},
