@@ -10,7 +10,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "unbreakable:unbreakable_iron_sword_smithing"
+				"recipes": "unbreakable:unbreakable_iron_sword_smithing"
 			}
 		}
 	},

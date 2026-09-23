@@ -10,7 +10,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "unbreakable:unbreakable_copper_axe_smithing"
+				"recipes": "unbreakable:unbreakable_copper_axe_smithing"
 			}
 		}
 	},
